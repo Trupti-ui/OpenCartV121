@@ -14,14 +14,14 @@ public class TC_001_AccountRegistration extends BaseClass{
 	{
 		try 
 		{
-			HomePage hp = new HomePage(driver);
+			HomePage hp = new HomePage(getDriver());
 			logger.info("**** Started Executions of TC_001_AccountRegistration ...! ****");
-			hp.MyAccount();
+			hp.clickMyAccount();
 			logger.info("**** Clicked on My Account ..! ***");
-			hp.Register();
+			hp.clickRegister();
 			logger.info("**** Clicked on My Register link ..1 ***");
 			
-			AccountRegistrations regpage= new AccountRegistrations(driver);
+			AccountRegistrations regpage= new AccountRegistrations(getDriver());
 			logger.info("**** Providing account creation details...!***");
 			regpage.setFirstName(randomString().toUpperCase());
 			regpage.setLastName(randomString().toUpperCase());
@@ -33,9 +33,9 @@ public class TC_001_AccountRegistration extends BaseClass{
 			regpage.setPassword(password);
 			regpage.setConfirmPassword(password);
 			regpage.checkAgree();
-			regpage.btnContinue();
+			regpage.clickContinue();
 			logger.info("**** Validating the Account registrations ...!***");
-			String cnfmsg=regpage.getconfirmationmsg();
+			String cnfmsg=regpage.getConfirmationMessage();
 //			Assert.assertEquals(cnfmsg, "Your Account Has Been Created!!!", "Confirmation message mismatch");
 //			logger.info("Test Passed");
 			

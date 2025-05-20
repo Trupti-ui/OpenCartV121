@@ -29,13 +29,16 @@ import org.testng.annotations.Parameters;
 public class BaseClass {
 	
 	
-	static public WebDriver driver;
-	public Logger logger;
-	public Properties p;
-	@BeforeClass(groups= {"Sanity", "Regression","Master"})
-	@Parameters({"os","browser"})
+	protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    public Logger logger;
+    public Properties p;
+
+    public static WebDriver getDriver() {
+        return driver.get();
+    }
 	
-	
+	@BeforeClass(groups = {"Sanity", "Regression", "Master"})
+    @Parameters({"os", "browser"})
 	public void setup(String os, String browser) throws IOException
 	{
 		logger=LogManager.getLogger(this.getClass());
@@ -46,68 +49,71 @@ public class BaseClass {
 		 
 		 logger.info("***********Execution is started***************");
 		 
-		if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
-		{
-			DesiredCapabilities capabilities= new DesiredCapabilities();
-			
-			// OS
-			
-			if(os.equals("Windows"))
-			{
-				capabilities.setPlatform(Platform.WIN11);
-			}
-			else if(os.equals("Linux"))
-			{
-				capabilities.setPlatform(Platform.LINUX);
-			}
-			else if(os.equals("MAC"))
-			{
-				capabilities.setPlatform(Platform.MAC);
-			}
-			else
-			{
-				System.out.println("Os not matching");
-				return;
-			}
-			
-			// Browsers
-			
-			switch(browser.toLowerCase())
-			{
-			case "chrome" : capabilities.setBrowserName("chrome"); break;
-			case "edge"   : capabilities.setBrowserName("MicrosoftEdge"); break;
-			case "firefox" : capabilities.setBrowserName("firefox"); break;
-			default : System.out.println("Invalid Browser Name"); return;
-			}
-			
-			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+        WebDriver localDriver = null;
+		
+		if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
+            DesiredCapabilities capabilities = new DesiredCapabilities();
 
-		}
+            switch (os.toLowerCase()) {
+                case "windows":
+                    capabilities.setPlatform(Platform.WIN11);
+                    break;
+                case "linux":
+                    capabilities.setPlatform(Platform.LINUX);
+                    break;
+                case "mac":
+                    capabilities.setPlatform(Platform.MAC);
+                    break;
+                default:
+                    throw new IllegalArgumentException("Invalid OS: " + os);
+            }
+
+            switch (browser.toLowerCase()) {
+                case "chrome":
+                    capabilities.setBrowserName("chrome");
+                    break;
+                case "edge":
+                    capabilities.setBrowserName("MicrosoftEdge");
+                    break;
+                case "firefox":
+                    capabilities.setBrowserName("firefox");
+                    break;
+                default:
+                    throw new IllegalArgumentException("Invalid Browser: " + browser);
+            }
+
+            localDriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+
+        } else if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
+            switch (browser.toLowerCase()) {
+                case "chrome":
+                    localDriver = new ChromeDriver();
+                    break;
+                case "edge":
+                    localDriver = new EdgeDriver();
+                    break;
+                case "firefox":
+                    localDriver = new FirefoxDriver();
+                    break;
+                default:
+                    throw new IllegalArgumentException("Invalid Browser: " + browser);
+            }
+        }
 		
-		if(p.getProperty("execution_env").equalsIgnoreCase("local"))
-		{
-			switch(browser.toLowerCase()) 
-			{
-				case "chrome" : driver = new ChromeDriver();break;
-				case "edge" : driver = new EdgeDriver(); break;
-				case "firefox" : driver = new FirefoxDriver();break;
-				default : System.out.println("Invalid browser name"); 
-				return;
-			}
-		}
-		
-		
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(p.getProperty("appURL"));
-		driver.manage().window().maximize();
+		driver.set(localDriver);
+        getDriver().manage().deleteAllCookies();
+        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        getDriver().get(p.getProperty("appURL"));
+        getDriver().manage().window().maximize();
 	}
 
-	@AfterClass(groups= {"Sanity", "Regression","Master"})
-	public void tearDown()
-	{
-		driver.close();
-	}
+	@AfterClass(groups = {"Sanity", "Regression", "Master"})
+    public void tearDown() {
+        if (getDriver() != null) {
+            getDriver().quit();
+            driver.remove();  // Clean up ThreadLocal
+        }
+    }
 	
 	public String randomString()
 	{

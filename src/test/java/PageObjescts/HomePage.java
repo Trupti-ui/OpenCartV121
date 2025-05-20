@@ -25,22 +25,17 @@ public class HomePage extends BasePage
 	
 	// Action type
 	
-	public void MyAccount()
-	{
-		lnkMyAccount.click();
-		
-	}
-	
-	public void Register()
-	{
-		lnkRegister.click();
-		
-	}
-	
-	public void Login()
-	{
-		lnkLogin.click();
-		
-	}
+	// Actions
+    public void clickMyAccount() {
+        lnkMyAccount.click();
+    }
+
+    public void clickRegister() {
+        lnkRegister.click();
+    }
+
+    public void clickLogin() {
+        lnkLogin.click();
+    }
 
 }

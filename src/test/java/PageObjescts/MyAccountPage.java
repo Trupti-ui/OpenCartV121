@@ -16,20 +16,17 @@ public class MyAccountPage extends BasePage
 	
 	
 	
-	public boolean msgdisplayed() {
-		try {
-			return (msgHeading.isDisplayed());
-		} 
-		catch (Exception e) 
-		{
-			return (false);
-		}
-	}
-	
-	public void Logout()
-	{
-		btnLogout.click();
-	}
+	public boolean isMyAccountHeadingDisplayed() {
+        try {
+            return msgHeading.isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public void clickLogout() {
+        btnLogout.click();
+    }
 
 
 }

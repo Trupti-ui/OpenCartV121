@@ -28,25 +28,25 @@ public class TC_003_LoginDDT extends BaseClass
 		try {
 	
 		//Home page
-			HomePage hp=new HomePage(driver);
-			hp.MyAccount();
-			hp.Login(); //Login link under MyAccount
+			HomePage hp=new HomePage(getDriver());
+			hp.clickMyAccount();
+			hp.clickLogin();; //Login link under MyAccount
 				
 			//Login page
-			LoginPage lp=new LoginPage(driver);
+			LoginPage lp=new LoginPage(getDriver());
 			lp.setEmail(email);
 			lp.setPassword(password);
-			lp.login(); //Login button
+			lp.clickLogin();; //Login button
 				
 			//My Account Page
-			MyAccountPage macc=new MyAccountPage(driver);
-			boolean targetPage=macc.msgdisplayed();
+			MyAccountPage macc=new MyAccountPage(getDriver());
+			boolean targetPage=macc.isMyAccountHeadingDisplayed();
 			
 			if(exp.equalsIgnoreCase("Valid"))
 			{
 				if(targetPage==true)
 				{
-					macc.Logout();
+					macc.clickLogout();
 					Assert.assertTrue(true);
 				}
 				else
@@ -59,7 +59,7 @@ public class TC_003_LoginDDT extends BaseClass
 			{
 				if(targetPage==true)
 				{
-					macc.Logout();
+					macc.clickLogout();
 					Assert.assertTrue(false);
 				}
 				else

@@ -1,95 +1,121 @@
-2025-05-18 00:39:02 INFO  Utils:112 - [TestNG] Running:
-  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\Grid_Docker.xml
-
-2025-05-18 00:39:02 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 00:39:06 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
-2025-05-18 00:39:12 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 00:39:18 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
-2025-05-18 00:40:08 INFO  Utils:112 - [TestNG] Running:
-  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\Grid_Docker.xml
-
-2025-05-18 00:40:08 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 00:42:37 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 00:45:38 INFO  Utils:112 - [TestNG] Running:
-  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\Grid_Docker.xml
-
-2025-05-18 00:45:38 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 00:45:42 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
-2025-05-18 00:45:48 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 00:45:54 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
-2025-05-18 00:48:55 INFO  Utils:112 - [TestNG] Running:
-  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\Grid_Docker.xml
-
-2025-05-18 00:48:55 INFO  TC_001_AccountRegistration:47 - ***********Execution is started***************
-2025-05-18 00:48:58 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
-2025-05-18 00:48:58 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
-2025-05-18 00:48:59 INFO  TC_001_AccountRegistration:22 - **** Clicked on My Register link ..1 ***
-2025-05-18 00:48:59 INFO  TC_001_AccountRegistration:25 - **** Providing account creation details...!***
-2025-05-18 00:49:01 INFO  TC_001_AccountRegistration:37 - **** Validating the Account registrations ...!***
-2025-05-18 00:49:01 INFO  TC_001_AccountRegistration:46 - Test Passed
-2025-05-18 00:49:01 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
-2025-05-18 00:49:01 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 00:52:02 INFO  TC_001_AccountRegistration:47 - ***********Execution is started***************
-2025-05-18 00:52:07 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
-2025-05-18 00:52:08 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
-2025-05-18 00:52:08 INFO  TC_001_AccountRegistration:22 - **** Clicked on My Register link ..1 ***
-2025-05-18 00:52:08 INFO  TC_001_AccountRegistration:25 - **** Providing account creation details...!***
-2025-05-18 00:52:10 INFO  TC_001_AccountRegistration:37 - **** Validating the Account registrations ...!***
-2025-05-18 00:52:10 INFO  TC_001_AccountRegistration:46 - Test Passed
-2025-05-18 00:52:10 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
-2025-05-18 00:52:11 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 01:15:43 INFO  Utils:112 - [TestNG] Running:
-  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\Grid_Docker.xml
-
-2025-05-18 01:15:43 INFO  TC_001_AccountRegistration:47 - ***********Execution is started***************
-2025-05-18 01:15:48 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
-2025-05-18 01:15:48 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
-2025-05-18 01:15:48 INFO  TC_001_AccountRegistration:22 - **** Clicked on My Register link ..1 ***
-2025-05-18 01:15:48 INFO  TC_001_AccountRegistration:25 - **** Providing account creation details...!***
-2025-05-18 01:15:51 INFO  TC_001_AccountRegistration:37 - **** Validating the Account registrations ...!***
-2025-05-18 01:15:51 INFO  TC_001_AccountRegistration:46 - Test Passed
-2025-05-18 01:15:51 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
-2025-05-18 01:15:51 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 01:18:52 INFO  TC_001_AccountRegistration:47 - ***********Execution is started***************
-2025-05-18 01:18:59 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
-2025-05-18 01:18:59 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
-2025-05-18 01:19:00 INFO  TC_001_AccountRegistration:22 - **** Clicked on My Register link ..1 ***
-2025-05-18 01:19:00 INFO  TC_001_AccountRegistration:25 - **** Providing account creation details...!***
-2025-05-18 01:19:02 INFO  TC_001_AccountRegistration:37 - **** Validating the Account registrations ...!***
-2025-05-18 01:19:02 INFO  TC_001_AccountRegistration:46 - Test Passed
-2025-05-18 01:19:02 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
-2025-05-18 01:19:03 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 19:43:56 INFO  Utils:112 - [TestNG] Running:
-  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\Grid_Docker.xml
-
-2025-05-18 19:43:56 INFO  TC_001_AccountRegistration:47 - ***********Execution is started***************
-2025-05-18 19:43:56 INFO  TC_001_AccountRegistration:47 - ***********Execution is started***************
-2025-05-18 19:44:00 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
-2025-05-18 19:44:00 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
-2025-05-18 19:44:00 INFO  TC_001_AccountRegistration:22 - **** Clicked on My Register link ..1 ***
-2025-05-18 19:44:00 INFO  TC_001_AccountRegistration:25 - **** Providing account creation details...!***
-2025-05-18 19:44:02 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
-2025-05-18 19:44:02 INFO  TC_001_AccountRegistration:37 - **** Validating the Account registrations ...!***
-2025-05-18 19:44:02 INFO  TC_001_AccountRegistration:46 - Test Passed
-2025-05-18 19:44:02 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
-2025-05-18 19:44:02 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
-2025-05-18 19:44:03 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 19:44:03 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
-2025-05-18 19:45:20 INFO  Utils:112 - [TestNG] Running:
-  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\Grid_Docker.xml
-
-2025-05-18 19:45:20 INFO  TC_001_AccountRegistration:47 - ***********Execution is started***************
-2025-05-18 19:48:14 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 19:48:15 INFO  TC_001_AccountRegistration:47 - ***********Execution is started***************
-2025-05-18 19:48:15 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 22:32:35 INFO  Utils:112 - [TestNG] Running:
+2025-05-20 22:02:34 INFO  Utils:112 - [TestNG] Running:
   D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\master.xml
 
-2025-05-18 22:32:35 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 22:32:40 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
-2025-05-18 22:43:00 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 22:43:03 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
-2025-05-18 22:57:28 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 22:57:31 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
-2025-05-18 23:03:02 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
-2025-05-18 23:03:05 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
+2025-05-20 22:02:34 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
+2025-05-20 22:02:36 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
+2025-05-20 22:03:21 INFO  Utils:112 - [TestNG] Running:
+  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\crossbrowsertesting.xml
+
+2025-05-20 22:03:21 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
+2025-05-20 22:03:21 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
+2025-05-20 22:03:21 INFO  TC_002_LoginTest:47 - ***********Execution is started***************
+2025-05-20 22:03:23 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
+2025-05-20 22:03:25 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
+2025-05-20 22:03:36 INFO  TC_002_LoginTest:16 - **** Started execution of TC_002_LoginTest **** 
+2025-05-20 23:09:28 INFO  Utils:112 - [TestNG] Running:
+  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\NewMaster.xml
+
+2025-05-20 23:09:28 INFO  TC_002_LoginTest:50 - ***********Execution is started***************
+2025-05-20 23:09:28 INFO  TC_002_LoginTest:50 - ***********Execution is started***************
+2025-05-20 23:09:31 INFO  TC_002_LoginTest:15 - **** Started execution of TC_002_LoginTest ****
+2025-05-20 23:09:31 INFO  TC_002_LoginTest:20 - Clicked on My Account
+2025-05-20 23:09:32 INFO  TC_002_LoginTest:23 - Clicked on Login link
+2025-05-20 23:09:32 INFO  TC_002_LoginTest:31 - Submitted login form
+2025-05-20 23:09:32 INFO  TC_002_LoginTest:35 - Login successful, My Account heading is visible
+2025-05-20 23:09:33 INFO  TC_002_LoginTest:38 - Clicked Logout
+2025-05-20 23:09:33 INFO  TC_002_LoginTest:15 - **** Started execution of TC_002_LoginTest ****
+2025-05-20 23:09:33 INFO  TC_002_LoginTest:20 - Clicked on My Account
+2025-05-20 23:09:34 INFO  TC_002_LoginTest:23 - Clicked on Login link
+2025-05-20 23:09:35 INFO  TC_002_LoginTest:31 - Submitted login form
+2025-05-20 23:09:35 INFO  TC_002_LoginTest:35 - Login successful, My Account heading is visible
+2025-05-20 23:09:35 INFO  TC_002_LoginTest:38 - Clicked Logout
+2025-05-20 23:10:10 INFO  Utils:112 - [TestNG] Running:
+  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\crossbrowsertesting.xml
+
+2025-05-20 23:10:10 INFO  TC_002_LoginTest:50 - ***********Execution is started***************
+2025-05-20 23:10:10 INFO  TC_002_LoginTest:50 - ***********Execution is started***************
+2025-05-20 23:10:10 INFO  TC_002_LoginTest:50 - ***********Execution is started***************
+2025-05-20 23:10:12 INFO  TC_002_LoginTest:15 - **** Started execution of TC_002_LoginTest ****
+2025-05-20 23:10:13 INFO  TC_002_LoginTest:20 - Clicked on My Account
+2025-05-20 23:10:13 INFO  TC_002_LoginTest:23 - Clicked on Login link
+2025-05-20 23:10:13 INFO  TC_002_LoginTest:31 - Submitted login form
+2025-05-20 23:10:14 INFO  TC_002_LoginTest:15 - **** Started execution of TC_002_LoginTest ****
+2025-05-20 23:10:14 INFO  TC_002_LoginTest:20 - Clicked on My Account
+2025-05-20 23:10:14 INFO  TC_002_LoginTest:23 - Clicked on Login link
+2025-05-20 23:10:15 INFO  TC_002_LoginTest:35 - Login successful, My Account heading is visible
+2025-05-20 23:10:15 INFO  TC_002_LoginTest:38 - Clicked Logout
+2025-05-20 23:10:15 INFO  TC_002_LoginTest:15 - **** Started execution of TC_002_LoginTest ****
+2025-05-20 23:10:16 INFO  TC_002_LoginTest:20 - Clicked on My Account
+2025-05-20 23:10:16 INFO  TC_002_LoginTest:31 - Submitted login form
+2025-05-20 23:10:16 INFO  TC_002_LoginTest:35 - Login successful, My Account heading is visible
+2025-05-20 23:10:16 INFO  TC_002_LoginTest:23 - Clicked on Login link
+2025-05-20 23:10:16 INFO  TC_002_LoginTest:38 - Clicked Logout
+2025-05-20 23:10:17 INFO  TC_002_LoginTest:31 - Submitted login form
+2025-05-20 23:10:17 INFO  TC_002_LoginTest:35 - Login successful, My Account heading is visible
+2025-05-20 23:10:17 INFO  TC_002_LoginTest:38 - Clicked Logout
+2025-05-20 23:13:51 INFO  Utils:112 - [TestNG] Running:
+  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\NewMaster.xml
+
+2025-05-20 23:13:51 INFO  TC_001_AccountRegistration:50 - ***********Execution is started***************
+2025-05-20 23:13:51 INFO  TC_001_AccountRegistration:50 - ***********Execution is started***************
+2025-05-20 23:13:53 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
+2025-05-20 23:13:53 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
+2025-05-20 23:13:53 INFO  TC_001_AccountRegistration:22 - **** Clicked on My Register link ..1 ***
+2025-05-20 23:13:53 INFO  TC_001_AccountRegistration:25 - **** Providing account creation details...!***
+2025-05-20 23:13:55 INFO  TC_001_AccountRegistration:37 - **** Validating the Account registrations ...!***
+2025-05-20 23:13:55 INFO  TC_001_AccountRegistration:46 - Test Passed
+2025-05-20 23:13:55 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
+2025-05-20 23:13:55 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
+2025-05-20 23:13:56 INFO  TC_002_LoginTest:50 - ***********Execution is started***************
+2025-05-20 23:13:56 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
+2025-05-20 23:13:56 INFO  TC_001_AccountRegistration:22 - **** Clicked on My Register link ..1 ***
+2025-05-20 23:13:56 INFO  TC_001_AccountRegistration:25 - **** Providing account creation details...!***
+2025-05-20 23:13:57 INFO  TC_002_LoginTest:15 - **** Started execution of TC_002_LoginTest ****
+2025-05-20 23:13:57 INFO  TC_002_LoginTest:20 - Clicked on My Account
+2025-05-20 23:13:58 INFO  TC_002_LoginTest:23 - Clicked on Login link
+2025-05-20 23:13:58 INFO  TC_001_AccountRegistration:37 - **** Validating the Account registrations ...!***
+2025-05-20 23:13:58 INFO  TC_001_AccountRegistration:46 - Test Passed
+2025-05-20 23:13:58 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
+2025-05-20 23:13:58 INFO  TC_002_LoginTest:50 - ***********Execution is started***************
+2025-05-20 23:13:59 INFO  TC_002_LoginTest:31 - Submitted login form
+2025-05-20 23:13:59 INFO  TC_002_LoginTest:35 - Login successful, My Account heading is visible
+2025-05-20 23:13:59 INFO  TC_002_LoginTest:38 - Clicked Logout
+2025-05-20 23:14:03 INFO  TC_002_LoginTest:15 - **** Started execution of TC_002_LoginTest ****
+2025-05-20 23:14:03 INFO  TC_002_LoginTest:20 - Clicked on My Account
+2025-05-20 23:14:03 INFO  TC_002_LoginTest:23 - Clicked on Login link
+2025-05-20 23:14:04 INFO  TC_002_LoginTest:31 - Submitted login form
+2025-05-20 23:14:04 INFO  TC_002_LoginTest:35 - Login successful, My Account heading is visible
+2025-05-20 23:14:04 INFO  TC_002_LoginTest:38 - Clicked Logout
+2025-05-20 23:15:22 INFO  Utils:112 - [TestNG] Running:
+  D:\AutomationJava\MyWorkSpace\SeleniumWebdriver\OpenCartV121\NewMaster.xml
+
+2025-05-20 23:15:23 INFO  TC_001_AccountRegistration:50 - ***********Execution is started***************
+2025-05-20 23:15:23 INFO  TC_001_AccountRegistration:50 - ***********Execution is started***************
+2025-05-20 23:15:25 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
+2025-05-20 23:15:25 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
+2025-05-20 23:15:25 INFO  TC_001_AccountRegistration:22 - **** Clicked on My Register link ..1 ***
+2025-05-20 23:15:25 INFO  TC_001_AccountRegistration:25 - **** Providing account creation details...!***
+2025-05-20 23:15:27 INFO  TC_001_AccountRegistration:37 - **** Validating the Account registrations ...!***
+2025-05-20 23:15:27 INFO  TC_001_AccountRegistration:46 - Test Passed
+2025-05-20 23:15:27 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
+2025-05-20 23:15:27 INFO  TC_002_LoginTest:50 - ***********Execution is started***************
+2025-05-20 23:15:27 INFO  TC_001_AccountRegistration:18 - **** Started Executions of TC_001_AccountRegistration ...! ****
+2025-05-20 23:15:28 INFO  TC_001_AccountRegistration:20 - **** Clicked on My Account ..! ***
+2025-05-20 23:15:28 INFO  TC_001_AccountRegistration:22 - **** Clicked on My Register link ..1 ***
+2025-05-20 23:15:28 INFO  TC_001_AccountRegistration:25 - **** Providing account creation details...!***
+2025-05-20 23:15:29 INFO  TC_002_LoginTest:15 - **** Started execution of TC_002_LoginTest ****
+2025-05-20 23:15:29 INFO  TC_002_LoginTest:20 - Clicked on My Account
+2025-05-20 23:15:30 INFO  TC_002_LoginTest:23 - Clicked on Login link
+2025-05-20 23:15:30 INFO  TC_001_AccountRegistration:37 - **** Validating the Account registrations ...!***
+2025-05-20 23:15:30 INFO  TC_001_AccountRegistration:46 - Test Passed
+2025-05-20 23:15:30 INFO  TC_001_AccountRegistration:71 - *** Finished of TC_001_AccountRegistration 
+2025-05-20 23:15:31 INFO  TC_002_LoginTest:50 - ***********Execution is started***************
+2025-05-20 23:15:31 INFO  TC_002_LoginTest:31 - Submitted login form
+2025-05-20 23:15:32 INFO  TC_002_LoginTest:35 - Login successful, My Account heading is visible
+2025-05-20 23:15:32 INFO  TC_002_LoginTest:38 - Clicked Logout
+2025-05-20 23:15:36 INFO  TC_002_LoginTest:15 - **** Started execution of TC_002_LoginTest ****
+2025-05-20 23:15:36 INFO  TC_002_LoginTest:20 - Clicked on My Account
+2025-05-20 23:15:36 INFO  TC_002_LoginTest:23 - Clicked on Login link
+2025-05-20 23:15:37 INFO  TC_002_LoginTest:31 - Submitted login form
+2025-05-20 23:15:37 INFO  TC_002_LoginTest:35 - Login successful, My Account heading is visible
+2025-05-20 23:15:37 INFO  TC_002_LoginTest:38 - Clicked Logout

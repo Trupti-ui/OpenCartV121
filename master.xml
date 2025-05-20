@@ -9,7 +9,6 @@
 	<parameter name="os" value="Windows"/>
 	<parameter name="browser" value="Chrome"/>
   <test thread-count="5" name="Test">
-	  
     <classes>
       <!--class name="TestCases.TC_001_AccountRegistration"/-->
       <class name="TestCases.TC_002_LoginTest"/>

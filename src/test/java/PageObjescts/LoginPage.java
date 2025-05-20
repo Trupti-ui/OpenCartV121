@@ -21,20 +21,20 @@ public class LoginPage extends BasePage
 	@FindBy (xpath="//input[@value='Login']") WebElement btnLogin;
 	
 	
-	public void setEmail(String email)
-	{
-		txtuserName.sendKeys(email);
-	}
-	
-	public void setPassword(String pwd)
-	{
-		txtpassword.sendKeys(pwd);
-	}
-	
-	public void login()
-	{
-		btnLogin.click();
-	}
+	// Actions
+    public void setEmail(String email) {
+    	txtuserName.clear();
+    	txtuserName.sendKeys(email);
+    }
+
+    public void setPassword(String pwd) {
+    	txtpassword.clear();
+    	txtpassword.sendKeys(pwd);
+    }
+
+    public void clickLogin() {
+        btnLogin.click();
+    }
 
 
 	
